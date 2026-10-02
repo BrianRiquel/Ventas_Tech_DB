@@ -1,28 +1,39 @@
- Ventas Tech DB
+# RetailPro / Ventas_Tech_DB
 
-Proyecto de base de datos desarrollado en SQL Server para la gestión de ventas de una tienda de tecnología.
+Proyecto de base de datos desarrollado en SQL Server para la gestión y análisis de ventas de una tienda de tecnología.
 
 ## Estructura de la base de datos
 
-La base de datos `Ventas_Tech_DB` contiene las siguientes tablas:
+La base de datos contiene las siguientes tablas:
 
-- `categorias`: información de las categorías de productos.
-- `clientes`: datos de los clientes registrados.
-- `productos`: información de productos, precios, stock y estado.
-- `ventas`: registro de las operaciones de venta.
+- **categorias**: información de las categorías de productos.
+- **clientes**: datos de los clientes registrados.
+- **productos**: información de productos, precios, stock y estado.
+- **ventas**: registro de las operaciones de venta.
 
-## Características
+## Herramientas
 
-El script incluye:
+- Microsoft SQL Server
+- SQL Server Management Studio (SSMS)
+- GitHub
 
-- Creación de la base de datos.
-- Creación y eliminación controlada de tablas.
-- Claves primarias (PRIMARY KEY).
-- Claves foráneas (FOREIGN KEY).
-- Restricciones NOT NULL y UNIQUE.
-- Valores DEFAULT.
-- Carga de datos mediante INSERT.
-- Consultas SELECT para validar los datos cargados.
+## Funcionalidades
+
+El proyecto incluye:
+
+- Creación de la base de datos y tablas.
+- Claves primarias y foráneas.
+- Restricciones de integridad.
+- Carga de datos.
+- Consultas SQL para análisis de ventas.
+
+## Ejecución
+
+1. Abrir SQL Server Management Studio.
+2. Conectarse a una instancia de SQL Server.
+3. Abrir el script SQL del proyecto.
+4. Ejecutar el script en el orden documentado.
+5. Verificar la creación de las tablas y los datos antes de ejecutar las consultas de análisis.
 
 ## Archivo
 
